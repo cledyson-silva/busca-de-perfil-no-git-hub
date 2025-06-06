@@ -42,7 +42,7 @@ return (
 
         {/* Page title with GitHub icon */}
         <div className="flex items-center mb-10 text-white gap-2">
-            <img src="src\media\github-icon.png" alt="" />
+            <img src="/media/github-icon.png" alt="Imagem GitHub"/>
             <h1 className="text-6xl">Perfil <span className="font-bold">GitHub</span></h1>
         </div>
 
@@ -52,7 +52,7 @@ return (
                 <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Digite um usuário do GitHub"
                     className="flex-1 p-5 rounded-xl font-bold text-xl" />
                 <button onClick={fetchUser} className="bg-blue-600 rounded-xl transition-all duration-300 hover:scale-102 hover:bg-blue-700 p-5">
-                    <img src="src\media\search-icon.png" alt="" />
+                    <img src="/media/search-icon.png" alt="" />
                 </button>
             </div>
         </div>
